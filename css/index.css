@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background: -webkit-linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+}
+
+div.container {
+  display: flex;
+  justify-content: center; 
+  margin-top: 50px;
+  color:#000000;
+  font-size: 16px;
+  margin: 30px;
+}
+
+fieldset {
+  border: 2px solid #fff ;
+  border-radius: 15px;
+}
+
+legend {
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid #fff;
+  padding:10px ;
+  background-color: #fff;
+  border-radius: 6px;
+   color: blue; 
+   text-transform: uppercase;
+}
+
+input {
+  font-size: 16px;
+}
+
+#data_nascimento {
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 14px;
+}
+
+#btn {
+  width: 100%;
+  border-radius: 20px;
+  border: none;
+  padding: 15px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  background: -webkit-linear-gradient(top,  #1e5799 100%,#2989d8 60%,#207cca 51%,#7db9e8 100%);
+}
